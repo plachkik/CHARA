@@ -1,0 +1,29 @@
+# --- Normalize text files and disable CRLF warnings ---
+
+# Prevent Git from changing line endings automatically
+* -text
+
+# --- Unity / C# specific settings ---
+
+# C# source files: explicitly keep Windows CRLF (safe for Unity devs on Windows)
+*.cs text eol=crlf
+
+# Shell scripts and Unix build scripts: enforce LF
+*.sh text eol=lf
+
+# Ignore generated / temp files from line-ending checks
+*.meta -text
+*.unity -text
+*.prefab -text
+*.asset -text
+*.mat -text
+*.anim -text
+*.fbx -text
+*.png -text
+*.jpg -text
+*.dll -text
+*.exe -text
+*.nuget.cache -text
+*.json -text
+*.xml -text
+*.yaml -text
