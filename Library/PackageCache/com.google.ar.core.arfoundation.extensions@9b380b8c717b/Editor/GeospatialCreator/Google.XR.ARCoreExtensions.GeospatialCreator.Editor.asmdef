@@ -1,0 +1,45 @@
+{
+    "name": "Google.XR.ARCoreExtensions.GeospatialCreator.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Google.XR.ARCoreExtensions.GeospatialCreator",
+        "Google.XR.ARCoreExtensions.Editor",
+        "Unity.Mathematics",
+        "UnityGLTFEditor",
+        "UnityGLTFScripts",
+        "GLTFSerialization",
+        "CesiumRuntime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.cesium.unity",
+            "expression": "1.0.0",
+            "define": "ARCORE_INTERNAL_USE_CESIUM"
+        },
+        {
+            "name": "com.unity.mathematics",
+            "expression": "1.2.0",
+            "define": "ARCORE_INTERNAL_USE_UNITY_MATH"
+        },
+        {
+            "name": "org.khronos.unitygltf",
+            "expression": "2.9.0-rc",
+            "define": "ARCORE_INTERNAL_USE_KHRONOS_GLTF"
+        },
+        {
+            "name": "com.unity.nuget.newtonsoft-json",
+            "expression": "1.0.0",
+            "define": "ARCORE_INTERNAL_USE_NEWTONSOFT"
+        }
+    ],
+    "noEngineReferences": false
+}
